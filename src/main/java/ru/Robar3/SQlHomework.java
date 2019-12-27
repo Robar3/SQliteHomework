@@ -20,6 +20,9 @@ public class SQlHomework {
                 case (2):
                     sQlHomework.select();
                     break;
+                default:
+                    System.out.println("Такой команды не существует");
+                    break;
             }
             sQlHomework.end();
         }
